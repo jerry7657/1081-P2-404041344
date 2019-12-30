@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jerry's Portfolio</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/all.css">
+
+</head>
+
+<body>
+  
+
+<header class="navigation fixed-top">
+    <div class="navbar navbar-expand-lg nav-bg">
+        <a href="/">
+          <img class="img-fluid w-25" src="./images/illustrations/YinW.png" alt="Jerry Yin"></a>  
+            
+          <li class="nav-item submenu dropdown">
+            <a href="#" class="nav-link dropdown-toggle text-light" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">TKU</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="/TKU/w01/pokemon.html">Pokemon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/TKU/w02/imageGallery.html">imageGallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/TKU/w02/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/TKU/w03/div.html">div</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/TKU/w04/tku60.html">tku60</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/my_class.html">My class</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/my_resume.html">My resume</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item submenu dropdown">
+            <a href="#" class="nav-link dropdown-toggle text-light" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">DBDEMO</a>
+            <ul class="dropdown-menu">
+              <li class="nav-item">
+                <a class="nav-link" href="/introduction.html">期末Project說明</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blogen">建入資料庫</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/workjs">自選template table</a>
+              </li>
+            </ul>
+          </li>
+         
+      </div>
+ 
+</header>
+
+<!-- hero area -->
+
+<!-- /hero area -->
+
+<section class="section mt-5">
+  <div class="container">
+    <div class="card">
+      <h5 class="card-header">自製1</h5>
+      <div class="card-body">
+        <h5 class="card-title"><%= data[0].title %></h5>
+        <p class="card-text"><%= data[0].message %></p>
+        <a href="https://huslterstudio.weebly.com/design-3537335336.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h5 class="card-header">自製2</h5>
+      <div class="card-body">
+        <h5 class="card-title"><%= data[1].title %></h5>
+        <p class="card-text"><%= data[1].message %></p>
+        <a href="https://huslterstudio.weebly.com/208412430738498-togo-8203211272258024149244602015421729-263813503735373353362410721109248472443329255.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h5 class="card-header">自製3</h5>
+      <div class="card-body">
+        <h5 class="card-title"><%= data[2].title %></h5>
+        <p class="card-text"><%= data[2].message %></p>
+        <a href="https://huslterstudio.weebly.com/222382347820102.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+
+
+
+   
+</div>
+</section>
+
+
+
+<!-- footer -->
+<footer class="footer-section position-relative bg-primary testimonial-bg-shapes">
+  <div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="section-title text-white">Contact Info</h2>
+            </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light font-tertiary">Email</h5>
+          <p class="text-white paragraph-lg font-tertiary">jerry7657@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light font-tertiary">Phone</h5>
+          <p class="text-white paragraph-lg font-tertiary">+886 0919 549 970</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light font-tertiary">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">新北市中和區宜安路38號10樓之7</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="testimonial-bg-shapes">
+      <img src="images/illustrations/stars_footer.png" alt="map" class="img-fluid bg-map h-100 w-100">
+      <img src="images/illustrations/planet.png" alt="bg-shape" class="img-fluid bg-shape-1 w-25">
+      <img src="images/illustrations/rocket-bg.png" alt="bg-shape" class="img-fluid bg-shape-2 w-25">
+      <img src="images/illustrations/Artificial satellite.png" alt="bg-shape" class="img-fluid bg-shape-3 h-25">
+  </div>
+  
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<script src="./js/all.js"></script>
+
+
+</body>
+</html>
